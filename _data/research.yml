@@ -1,0 +1,88 @@
+areas:
+  - id: eviction
+    number: "01"
+    title: "Eviction as a networked legal process"
+    tagline: "What produces a filing before anyone reaches a courtroom"
+    body: >
+      Most statistical treatment of eviction models cases as independent draws conditioned
+      on tenant attributes. My work argues the opposite: eviction is organized by
+      repeat-player landlords, by the small set of attorneys who appear consistently, and
+      by court scheduling. Working with 755,004 Philadelphia Municipal Court
+      landlord–tenant records filed between 1969 and 2022, we find that ten plaintiff
+      attorneys handled 82.2% of represented plaintiff-side cases per year on average,
+      that large plaintiffs route 78.3% of their filings through a single attorney, and
+      that nearly half of residential cases occur at addresses with a filing in the prior
+      year. Downstream, courtroom outcomes turn on repeated attorney pairings and on
+      reusable settlement templates rather than on case facts alone. The unit of analysis
+      is the relationship, not the case.
+    methods: ["Administrative records", "Network descriptives", "Within-unit comparisons", "Text templates"]
+    papers: ["2604.21212", "2605.24849"]
+
+  - id: robustness
+    number: "02"
+    title: "Robustness and spillover in network models"
+    tagline: "Do conclusions survive when the network is measured with error?"
+    body: >
+      A network model is always an approximation, and real networks are sparse,
+      heterogeneous, and full of higher-order dependence that no single specification
+      captures. This strand asks one question in two registers. Decision-theoretically, we
+      let the posterior vary within a small Kullback–Leibler neighborhood and choose
+      actions minimizing worst-case posterior risk, deriving sharp small-radius expansions
+      for exchangeable graphs via graphon limits — including a universal critical exponent
+      for how decision-level uncertainty explodes near percolation and fragmentation
+      thresholds. Dynamically, network state-space models separate where interactions may
+      occur, which the graph fixes, from how strong they are at each moment, which a
+      latent state governs.
+    methods: ["Graphon limits", "Minimax theory", "Entropic tilting", "State-space models"]
+    papers: ["2601.02811", "2512.18584", "2606.26136", "2606.15836"]
+
+  - id: dataquality
+    number: "03"
+    title: "Data quality and classifier behavior"
+    tagline: "How training data propagates into what a classifier does"
+    body: >
+      With Alan F. Karr, Director Emeritus of the National Institute of Statistical
+      Sciences, I study the structure of classifier decision boundaries and how defects in
+      training data propagate into classifier behavior — beginning with naive Bayes
+      classifiers on short DNA reads and extending to large language models. Current work
+      measures the variability of language-model output on survey data: if a model is
+      going to stand in for a respondent, the first question is how much its answer moves
+      when nothing that should matter has changed.
+    methods: ["Classifier boundaries", "Training-data perturbation", "LLM output variance", "Survey methodology"]
+    papers: []
+
+  - id: foundations
+    number: "04"
+    title: "Models and computation for relational data"
+    tagline: "Building the machinery the three strands above depend on"
+    body: >
+      Methodological work that the applied strands draw on: collapsed Bayesian block
+      models that integrate out nuisance parameters so inference depends only on the
+      partition; multiscale wavelet representations of the connectivity kernel that make
+      resolution-indexed structure sparse and interpretable; copula-seeded sparse
+      generators that separate degree heterogeneity from spatial locality and expose a
+      degree-tail dichotomy; and generative models on Riemannian manifolds where the chart
+      becomes a numerical preconditioner rather than a hidden modeling decision.
+    methods: ["Collapsed MCMC", "Wavelet graphons", "Copula latent space", "Manifold generative models"]
+    papers: ["2601.02828", "2512.18592", "2512.20019", "2511.14056"]
+
+# Long-running collaborations, shown as a small grid
+collaborators:
+  - name: "Edoardo M. Airoldi"
+    role: "Temple University"
+    note: "Postdoctoral advisor; network inference and causal analysis"
+  - name: "Alan F. Karr"
+    role: "Temple University · NISS"
+    note: "Data quality and classifier behavior"
+  - name: "Marios Papamichalis"
+    role: "Yale Institute for Network Science"
+    note: "Network models, eviction, Bayesian synthesis"
+  - name: "Simón Lunagómez"
+    role: "ITAM"
+    note: "Decision-theoretic robustness"
+  - name: "Swati Chandna"
+    role: "Birkbeck, University of London"
+    note: "Decision-theoretic robustness"
+  - name: "Paul A. Pavlou"
+    role: "University of Miami"
+    note: "Digital experiments and consumer networks"

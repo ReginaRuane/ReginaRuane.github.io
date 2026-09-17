@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# SITE SETTINGS — edit these, then run:  python3 build.py
+# ---------------------------------------------------------------------------
+
+name:      Regina Ruane
+full_name: Regina (Jeanne) Ruane, Ph.D.
+tagline:   Statistician · Computational Social Science
+role:      >-
+  Managing Director, Computational Social Science Lab &amp; Center for AI and Society;
+  Lecturer in Statistics and Data Science, The Wharton School
+short_role: Managing Director, Computational Social Science Lab · University of Pennsylvania
+
+description: >-
+  Regina Ruane is a statistician at the University of Pennsylvania working on
+  statistical network models, causal inference under interference, and the
+  quantitative study of legal institutions.
+
+# The site's public address, used ONLY for the canonical / social-preview tags.
+# All page links are relative, so the site works at any address whether or not
+# this is filled in. Change it here if the site ever moves (e.g. to a custom
+# domain) and re-run build.py; leaving it blank simply omits those tags.
+url:     "https://reginaruane.github.io"
+baseurl: ""
+
+author:
+  email:       "jeanneruane@gmail.com"
+  location:    "Philadelphia, PA"
+  affiliation: "University of Pennsylvania"
+  photo:       "/images/profile.jpg"
+  cv:          "/files/Ruane_CV.pdf"
+  scholar:     "https://scholar.google.com/citations?user=pNNazAsAAAAJ&hl=en"
+  arxiv:       "https://arxiv.org/a/ruane_r_1"
+  github:      ""
+  orcid:       ""
+  linkedin:    ""
+
+# Shown under the name in the sidebar
+interests:
+  - Statistical network models
+  - Causal inference
+  - Bayesian computation
+  - Computational social science
+
+# Numbers shown on the home page. Keep these honest and easy to update.
+metrics:
+  - value: "$12M+"
+    label: "Research funding secured"
+  - value: "20+"
+    label: "Papers &amp; preprints"
+  - value: "6"
+    label: "Penn schools convened"
+  - value: "2"
+    label: "Institutes directed"

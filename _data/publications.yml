@@ -1,0 +1,367 @@
+# ---------------------------------------------------------------------------
+# PUBLICATIONS
+#
+# To add a paper, copy an entry and edit it. Then run:  python3 build.py
+#
+#   title     paper title
+#   authors   full list, in order. "Regina Ruane" is bolded automatically.
+#   year      used for sorting and for the year shown on the card
+#   venue     journal or conference, shown in italics
+#   status    optional: Accepted / Under review / Under revision, 2nd R&R ...
+#   note      optional: volume, pages
+#   award     optional: shown as a gold tag
+#   arxiv     optional: the bare ID, e.g. "2604.21212"
+#   doi       optional: full URL
+#   code      optional: repository URL
+#   topics    optional: any of  networks | causal | eviction | bayesian |
+#                              ml | education | health | fintech
+#   featured  optional: true puts it in "Selected work" on the home page
+#   abstract  optional: shown behind a toggle
+# ---------------------------------------------------------------------------
+
+published:
+  - title: "Support-Safe Variational Hybrid Filtering for Contact-Mode and Sparse-Law Recovery"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2026
+    venue: "Advances in Neural Information Processing Systems (NeurIPS)"
+    status: "Accepted"
+    arxiv: "2605.16398"
+    topics: [ml, bayesian]
+    featured: true
+    abstract: >
+      Contact-rich robot dynamics are hybrid: a single observation can match several
+      latent states and contact regimes (free, impact, stick-slip). A standard amortized
+      filter that places no probability on a feasible contact transition will permanently
+      lose the branch the robot actually follows. We introduce VHYDRO, a variational
+      hybrid dynamics learner that prevents this branch loss. At each step, VHYDRO mixes
+      the learned proposal with a feasible transition law before sampling and importance
+      weighting, ensuring that every transition retained by the model-feasible carrier
+      remains covered. VHYDRO jointly infers a continuous latent state and a discrete
+      contact mode, and fits a sparse port-Hamiltonian law to each recovered regime.
+
+  - title: "Examining the Relationship between COVID-19 Mobility and Eviction Rates in Philadelphia"
+    authors: "Regina Ruane, Les Sztandera"
+    year: 2023
+    venue: "International Journal on Advances in Life Sciences"
+    note: "15(1 & 2)"
+    topics: [eviction, health]
+
+  - title: "Exploring the Potential Effects of Technology Exposure on Temporary Impulsive Behaviors in Children"
+    authors: "Bahae Samhan, Regina Ruane"
+    year: 2021
+    venue: "Health Behavior and Policy Review"
+    note: "8(4), 305–318"
+    topics: [health]
+
+  - title: "The Effect of COVID-19 on Gig Workers' Tips: Evidence from Gopuff"
+    authors: "Srikar Katta, Regina Ruane"
+    year: 2021
+    venue: "Working paper"
+    topics: [fintech, causal]
+
+  - title: "Analyzing the Relationships between City Opioid Deaths and Socioeconomic Factors"
+    authors: "Ryan McGinnis, Les Sztandera, Regina Ruane, Rajanikanth Vadigepalli"
+    year: 2020
+    venue: "Journal of Opioid Management"
+    topics: [health]
+
+  - title: "The Trajectory of IT in Healthcare at HICSS: A Literature Review, Analysis, and Future Directions"
+    authors: "Bahae Samhan, Terry Crampton, Regina Ruane"
+    year: 2019
+    venue: "Communications of the Association for Information Systems"
+    topics: [health]
+
+  - title: "Analysis of Discussion Board Interaction in an Online Peer Mentoring Site"
+    authors: "Regina Ruane, Victoria J. Lee"
+    year: 2016
+    venue: "Online Learning"
+    note: "20(4), 79–99"
+    award: "Best Paper Award"
+    topics: [networks, education]
+    featured: true
+    abstract: >
+      A mixed-methods study of an online peer mentoring site for undergraduate education
+      students, combining social network analysis with interpretive content analysis and
+      critical discourse analysis to characterise how social position, peer influence,
+      and discourse shape the formation of an online learning community.
+
+  - title: "Social Network Analysis of Undergraduate Education Student Interaction in Online Peer Mentoring Settings"
+    authors: "Regina Ruane, Emmanuel Koku"
+    year: 2015
+    venue: "MERLOT Journal of Online Learning and Teaching"
+    topics: [networks, education]
+
+review:
+  - title: "Legal Infrastructure Organizes Eviction: Evidence from Philadelphia"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2026
+    venue: "Under review"
+    status: "Under review"
+    arxiv: "2604.21212"
+    topics: [eviction, networks, causal]
+    featured: true
+    abstract: >
+      We analyze the filing-side legal infrastructure of eviction using 755,004
+      Philadelphia Municipal Court landlord–tenant records filed between 1969 and 2022,
+      of which 747,125 are residential. Eviction in Philadelphia is organized upstream by
+      a concentrated plaintiff-side bar, durable plaintiff–attorney dependence, repeated
+      use of the same properties, and recurring tenant-name exposure. Between 1983 and
+      2022, the ten most active plaintiff attorneys handled 82.2% of represented
+      plaintiff-side cases per year on average, compared with 14.8% for the ten most
+      active plaintiffs. Across the residential filing universe, 48.8% of cases occur at
+      addresses with a prior filing in the preceding year, and 23.6% at addresses with
+      six or more prior filings. We interpret eviction as a layered upstream process in
+      which concentrated counsel, repeated places, and recurring tenants produce filings
+      before any courtroom bargaining or adjudication occurs.
+
+  - title: "How Eviction Court Governs: A Statistical Analysis of Bargaining, Templates, and Debt in Philadelphia"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2026
+    venue: "Under review"
+    status: "Under review"
+    arxiv: "2605.24849"
+    topics: [eviction, networks, causal]
+    featured: true
+    abstract: >
+      We analyze downstream courtroom governance in Philadelphia eviction cases using
+      755,004 Municipal Court landlord–tenant records filed from 1969 through 2022.
+      Post-filing case processing is organized by repeated courtroom relationships, judge
+      and tenant-attorney regimes, reusable agreement templates, and repeated
+      team–property units. Among both-represented cases, 58.2% involve a plaintiff-side
+      and tenant-side attorney pair that had appeared against one another in the prior
+      year, and greater prior pair exposure predicts lower default, higher judgment-by-
+      agreement, and higher served-writ rates. Settlement text is highly standardized:
+      reusable templates explain strictness, waiver, lockout-trigger, payment-plan, and
+      deadline language far more strongly than raw attorney identity. Eviction court
+      emerges as a repeated institutional field that organizes bargaining, text, debt,
+      and enforcement after cases enter the courtroom pipeline.
+
+  - title: "Bayesian Predictive Synthesis for Dynamic Networks: Forecasting and Identifying Structural Mechanisms"
+    authors: "Marios Papamichalis, Regina Ruane, Theofanis Papamichalis"
+    year: 2026
+    venue: "Journal of the American Statistical Association"
+    status: "Under revision, 2nd R&R"
+    arxiv: "2606.26136"
+    topics: [networks, bayesian]
+    featured: true
+    abstract: >
+      Networks are shaped by competing structural mechanisms, such as communities,
+      geometry, or hubs. In a dynamic network the most predictive mechanism can change,
+      and a model tied to one mechanism, or to fixed weights, cannot adapt as the dominant
+      structure shifts. We develop dynamic Bayesian predictive synthesis for networks, in
+      which a mechanism is an agent forecasting the next snapshot's edges and a synthesis
+      layer combines them with time-varying weights. At each step the method returns a
+      calibrated edge forecast and inference on the mechanism weights, with intervals
+      valid given the fitted agents, so it also reports which mechanism is most
+      informative. A sharp threshold separates distinguishable from indistinguishable
+      mechanisms, and a change in the active mechanism is tracked at an optimal
+      per-switch cost.
+
+  - title: "Decision-Theoretic Robustness for Network Models"
+    authors: "Marios Papamichalis, Regina Ruane, Simón Lunagómez, Swati Chandna"
+    year: 2026
+    venue: "Journal of Machine Learning Research"
+    status: "Under revision"
+    arxiv: "2601.02811"
+    topics: [networks, bayesian]
+    featured: true
+    abstract: >
+      Network data from neuroscience, epidemiology, and the social sciences are routinely
+      analyzed with Bayesian network models such as Erdős–Rényi graphs, stochastic block
+      models, random dot product graphs, and graphon priors. In such applications these
+      models are only approximations, whereas real networks are sparse, heterogeneous,
+      and exhibit higher-order dependencies. This raises the question: how stable are
+      network-based decisions, model selection, functional summaries, and policy
+      recommendations under small misspecification of the assumed model? We address this
+      using a local decision-theoretic robustness framework, in which the posterior is
+      allowed to vary within a small Kullback–Leibler neighborhood and actions are chosen
+      to minimize the worst-case posterior expected loss. We derive sharp small-radius
+      expansions for the robust posterior risk, obtain a universal critical exponent
+      describing how decision-level uncertainty explodes near criticality, develop a
+      nonparametric minimax theory for robust model selection, and illustrate a practical
+      algorithm on functional brain connectivity and Karnataka village social networks.
+
+  - title: "Investigating Twitter Behavior of Tax Experts in Social Network Sites"
+    authors: "Regina Ruane, Srikar Katta, T. L. Hill"
+    year: 2024
+    venue: "Under review"
+    status: "Submitted"
+    topics: [networks, education]
+
+preprints:
+  - title: "Replicable Conformal Prediction"
+    authors: "Marios Papamichalis, Regina Ruane, Theofanis Papamichalis"
+    year: 2026
+    venue: "Preprint"
+    arxiv: "2608.23638"
+    topics: [ml, bayesian]
+    abstract: >
+      Algorithms for generating consistent uncertainty sets across independent data
+      samples, joining the replicability literature to distribution-free conformal
+      prediction.
+
+  - title: "Minimax Synthesis of Network Mechanisms"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2026
+    venue: "Preprint"
+    arxiv: "2606.15836"
+    topics: [networks, bayesian]
+    abstract: >
+      A single observed network reflects several mechanisms at once: communities, hubs,
+      and clustering coexist in one graph, each a different model. We treat the network as
+      a combination of candidate mechanisms and study, from a single graph, how strongly
+      each mechanism contributes and how they combine. Fitting the mechanisms and their
+      strengths from the same data biases the strengths toward zero; a correction removes
+      this bias and yields valid confidence intervals. When a graph is generated by two
+      mechanisms acting together, the graph alone determines whether they combine
+      additively or interact, exactly when the graph is dense enough — a sharp threshold
+      below which no test can decide. We establish matching minimax rates and apply the
+      methods to real networks, where in one case a confidence interval excludes any
+      positive contribution from a candidate mechanism.
+
+  - title: "Collapsed Structured Block Models for Community Detection in Complex Networks"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2026
+    venue: "Preprint"
+    arxiv: "2601.02828"
+    topics: [networks, bayesian]
+    abstract: >
+      Community detection seeks to recover mesoscopic structure from network data that may
+      be binary, count-valued, signed, directed, weighted, or multilayer. In Bayesian
+      stochastic block models, standard MCMC alternates between updating the partition and
+      sampling block parameters, which can hinder mixing and complicate comparison across
+      partitions and numbers of communities. We develop a collapsed Bayesian SBM framework
+      in which block-specific nuisance parameters are analytically integrated out under
+      conjugate priors, so the marginal likelihood depends only on the partition and
+      blockwise sufficient statistics. This yields fast local Gibbs/Metropolis updates and
+      evidence-based complexity control that discourages gratuitous over-partitioning. We
+      derive exact collapsed marginals for Beta-Bernoulli, Gamma-Poisson, and
+      Normal-Inverse-Gamma edge types, and extend the strategy to directed, signed, and
+      multiplex block models.
+
+  - title: "Decomposing Degree Assortativity in Sparse Spatial Networks"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2025
+    venue: "Preprint"
+    note: "Formerly circulated as “CoLaS: Copula-Seeded Sparse Local Graphs”"
+    arxiv: "2512.20019"
+    code: "https://github.com/MariosPapamix/Decomposing-Degree-Assortativity-in-Sparse-Spatial-Networks"
+    topics: [networks]
+    abstract: >
+      Empirical networks are typically sparse yet display pronounced degree variation,
+      persistent transitivity, and systematic degree mixing. Most sparse generators
+      control at most two of these features, and assortativity is often achieved by
+      degree-preserving rewiring, which obscures the mechanism–parameter link. We
+      introduce CoLaS, a modular latent-variable model that separates marginal
+      specifications from dependence: each node has a popularity variable governing degree
+      heterogeneity and a latent geometric location governing locality, and a
+      low-dimensional copula couples the two. We develop sparse-limit theory for degrees,
+      transitivity, and assortativity, and establish a degree-tail dichotomy — with
+      fixed-range local kernels, degree tails are necessarily light, even under
+      heavy-tailed popularity.
+
+  - title: "Multiscale Localized Inference for Networks with a Measured Vertex Coordinate"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2025
+    venue: "Preprint"
+    note: "Formerly circulated as “Wavelet Latent Position Exponential Random Graphs”"
+    arxiv: "2512.18592"
+    topics: [networks, bayesian]
+    abstract: >
+      Many network datasets exhibit connectivity that varies by resolution, with
+      large-scale organization coexisting with localized departures. When vertices have an
+      observed ordering or embedding — genome position in Hi-C contact maps, geography in
+      spatial and village networks, anatomical coordinates in connectomes — learning where
+      and at what resolution connectivity departs from a baseline is crucial. We introduce
+      wavelet latent position exponential random graphs, an exchangeable logistic-graphon
+      framework in which the log-odds connectivity kernel is represented in compactly
+      supported orthonormal wavelet coordinates. Wavelet coefficients are indexed by
+      resolution and location, which allows multiscale structure to become sparse and
+      directly interpretable, and enables likelihood-based regularization and testing in
+      coefficient space.
+
+  - title: "State-Space Modeling of Time-Varying Spillovers on Networks"
+    authors: "Marios Papamichalis, Regina Ruane, Theofanis Papamichalis"
+    year: 2025
+    venue: "Preprint"
+    arxiv: "2512.18584"
+    topics: [networks, fintech, bayesian]
+    abstract: >
+      Many modern time series arise on networks, where each component is attached to a
+      node and interactions follow observed edges. Classical time-varying parameter VARs
+      treat all series symmetrically and ignore this structure, while network
+      autoregressive models exploit a given graph but usually impose constant parameters
+      and stationarity. We develop network state-space models in which a low-dimensional
+      latent state controls time-varying network spillovers, own-lag persistence, and
+      nodal covariate effects. Conceptually, network state-space models separate where
+      interactions may occur (the graph) from how strong they are at each time (the latent
+      state), providing an interpretable alternative to both unstructured TVP-VARs and
+      existing network time-series models.
+
+  - title: "Radial Compensation: The Inverse Base-Distribution Problem for Chart-Based Generative Models on Riemannian Manifolds"
+    authors: "Marios Papamichalis, Regina Ruane"
+    year: 2025
+    venue: "Preprint"
+    arxiv: "2511.14056"
+    topics: [ml, bayesian]
+    abstract: >
+      We study the base distribution in chart-based generative models on Riemannian
+      manifolds. Standard methods sample in Euclidean tangent space and then map the
+      sample to the manifold with a chart, but this changes the meaning of distance: the
+      same tangent-space scale can correspond to different geodesic radii under different
+      charts, curvatures, and dimensions. Within isotropic, scalar-Jacobian azimuthal
+      charts, we show that no base distribution can simultaneously preserve
+      geodesic-radial likelihoods, chart-invariant radial Fisher information, and
+      tangent-space isotropy unless it has a specific form, which we call Radial
+      Compensation. This decouples the statistical meaning of the model from its numerical
+      conditioning: chart choice becomes a numerical preconditioner rather than a hidden
+      modeling decision.
+
+working:
+  - title: "Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier"
+    authors: "Alan F. Karr, Adam A. Porter, Regina Ruane, Zac Bowen"
+    year: 2026
+    venue: "In preparation"
+    topics: [ml]
+
+  - title: "Effects of Training Data Quality on Classifier Behavior"
+    authors: "Alan F. Karr, Adam A. Porter, Regina Ruane"
+    year: 2026
+    venue: "In preparation"
+    topics: [ml]
+
+  - title: "Dynamic Network Threshold Models via Discrete Hamiltonian MCMC and Discrete Stein Variational Inference"
+    authors: "Regina Ruane, Marios Papamichalis, Edoardo M. Airoldi"
+    year: 2026
+    venue: "In preparation"
+    topics: [networks, bayesian]
+
+  - title: "Hybrid Growing Network Models with Heavy Tails"
+    authors: "Marios Papamichalis, Regina Ruane, Edoardo M. Airoldi"
+    year: 2026
+    venue: "In preparation"
+    topics: [networks]
+
+  - title: "MCMC and Variational Inferential Procedures for the Bates Stochastic Volatility Model"
+    authors: "Regina Ruane, Marios Papamichalis, Edoardo M. Airoldi"
+    year: 2026
+    venue: "In preparation"
+    topics: [fintech, bayesian]
+
+  - title: "Inferential Probabilistic and Quasi-Experimental Approaches on Bitcoin"
+    authors: "Regina Ruane, Marios Papamichalis, Edoardo M. Airoldi"
+    year: 2026
+    venue: "In preparation"
+    topics: [fintech, causal]
+
+  - title: "Model-Assisted Counterfactual Imputation for Causal Inference in the Absence of Untreated Units and Variables"
+    authors: "Srikar Katta, Regina Ruane, Edoardo M. Airoldi"
+    year: 2026
+    venue: "In preparation"
+    topics: [causal]
+
+  - title: "Network Effects of Consumer Purchasing Behavior: An Empirical Investigation"
+    authors: "Paul A. Pavlou, Edoardo M. Airoldi, Sunil Kumar, Regina Ruane, Yuliya Vorotyntseva"
+    year: 2026
+    venue: "In preparation"
+    topics: [networks, causal, fintech]

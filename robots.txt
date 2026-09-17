@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reginaruane.github.io/sitemap.xml

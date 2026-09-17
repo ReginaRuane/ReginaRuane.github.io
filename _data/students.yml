@@ -1,0 +1,55 @@
+mentees:
+  - name: "Srikar Katta"
+    then: "Undergraduate researcher, Temple University"
+    now: "Ph.D. student in Computer Science, Duke University"
+    note: "His first publication was one we wrote together on the effect of COVID-19 on gig workers' tips. He now publishes in top venues."
+
+  - name: "Media Bias Detector team"
+    then: "Undergraduate researchers, University of Pennsylvania"
+    now: "—"
+    note: "Built and ran the human-in-the-loop verification component confirming that news articles were correctly labeled."
+
+  - name: "Geolocation data repository team"
+    then: "Undergraduate researchers, University of Pennsylvania"
+    now: "—"
+    note: "Engineered core platform capabilities for a shared geolocation data repository used across lab projects."
+
+projects:
+  - title: "Housing court in a mid-size county"
+    scope: "One term"
+    prereq: "One statistics course, one programming course"
+    body: >
+      Most counties publish a housing-court docket and an assessment roll. Linking them
+      yields a filing-side dataset of exactly the kind behind the Philadelphia work, at a
+      scale a student can hold in their head. The first question — who files, how often,
+      and at which properties — is answerable in ten weeks and is genuinely unanswered for
+      most jurisdictions.
+
+  - title: "How much does a language model move?"
+    scope: "One term"
+    prereq: "One statistics course"
+    body: >
+      Ask a language model the same survey question many times, varying only what should
+      not matter. The result is a variance estimate, obtained cheaply, on a question that
+      survey researchers are currently arguing about. Students learn replication,
+      sampling, and variance decomposition on a problem where the answer is not in the
+      back of the book.
+
+  - title: "Network descriptives for a real community"
+    scope: "One to two terms"
+    prereq: "One programming course"
+    body: >
+      Collect or obtain a small relational dataset — a club, a department, a citation
+      neighborhood — and work through degree distributions, clustering, assortativity, and
+      what a block model does and does not recover. The pedagogical value is in
+      discovering how much a single observed graph fails to determine.
+
+principles:
+  - title: "Real question, real data"
+    body: "Students do better work when the question is not a teaching example. Every project above begins with data that exists in the world and a question nobody has answered."
+  - title: "A ten-week unit of work"
+    body: "Undergraduate research fails when the scope is a dissertation chapter. Each project is scoped so that a result exists at the end of one term, and so that the result can grow if the student stays."
+  - title: "Presentation is part of the work"
+    body: "End-of-year presentations are where students discover they know something. I build toward them from the first week."
+  - title: "Authorship where it is earned"
+    body: "Students who contribute get named. It is how Srikar Katta's first paper happened, and it changes what a student believes is possible."

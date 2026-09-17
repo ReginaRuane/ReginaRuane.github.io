@@ -1,0 +1,103 @@
+education:
+  - degree: "Ph.D., Educational Leadership &amp; Learning Technologies"
+    institution: "Drexel University"
+    years: "2005 – 2012"
+  - degree: "M.A., Curriculum and Teaching"
+    institution: "Columbia University"
+    years: "1999 – 2001"
+  - degree: "B.A., Philosophy"
+    institution: "Villanova University"
+    years: "1992 – 1996"
+
+postgraduate: >
+  Statistical training as a Research Fellow and then Postdoctoral Research Fellow at
+  Harvard University and Temple University (2018 – 2020) under Edoardo M. Airoldi,
+  Millard E. Gladfelter Professor of Statistics and Data Science, and Paul A. Pavlou,
+  then Senior Associate Dean at the Fox School of Business.
+
+positions:
+  - title: "Managing Director, Computational Social Science Lab &amp; Center for AI and Society"
+    sub: "Lecturer, Statistics and Data Science, The Wharton School"
+    org: "University of Pennsylvania"
+    years: "2022 –"
+    current: true
+  - title: "Executive Director"
+    org: "International Society for Computational Social Science"
+    years: "2022 –"
+    current: true
+  - title: "Executive Director, Data Science Institute"
+    sub: "Assistant Professor of Research, Statistical Science · Managing Director, Pedagogical Research"
+    org: "Temple University"
+    years: "2020 – 2022"
+  - title: "Postdoctoral Research Fellow"
+    org: "Harvard University &amp; Temple University"
+    years: "2019 – 2020"
+  - title: "Research Fellow"
+    org: "Harvard University &amp; Temple University"
+    years: "2018 – 2019"
+  - title: "Program Director, Exploratory Studies"
+    org: "Drexel University"
+    years: "2014 – 2017"
+  - title: "Academic Services Manager"
+    org: "Drexel University"
+    years: "2008 – 2014"
+  - title: "Program Manager, Undergraduate Studies, Teaching, Learning and Curriculum"
+    org: "Drexel University"
+    years: "2002 – 2008"
+  - title: "Director of Curriculum"
+    org: "The Rock School, Philadelphia"
+    years: "2001 – 2002"
+  - title: "Kindergarten Teacher"
+    org: "Brunswick School, Greenwich, CT"
+    years: "2000 – 2001"
+  - title: "Administrator, Office of General Counsel"
+    org: "Open Society Foundation, Soros Foundation Network"
+    years: "1998 – 1999"
+  - title: "English Teacher"
+    org: "International American School, Warsaw, Poland"
+    years: "1997 – 1998"
+  - title: "English Teacher"
+    org: "Martinihaus School, Rottenburg am Neckar, Germany"
+    years: "1996 – 1997"
+
+expertise:
+  - group: "Statistics &amp; inference"
+    items: ["Causal inference", "Sampling and survey methods", "Bayesian computation (MCMC, variational)", "Time series and state-space models"]
+  - group: "Networks"
+    items: ["Probabilistic network models", "Block models and graphons", "Latent space models", "Causal inference under interference"]
+  - group: "Machine learning"
+    items: ["Statistical learning and data mining", "Deep neural networks", "NLP and sentiment analysis", "Classifier robustness"]
+  - group: "Computing"
+    items: ["R", "Python", "SQL", "Hadoop &amp; Spark", "D3 / JavaScript"]
+  - group: "Applications"
+    items: ["Legal and housing institutions", "High-frequency trading microstructure", "FinTech and crowdfunding", "Online learning"]
+
+awards:
+  - name: "Best Paper Award, Online Learning"
+    year: "2016"
+  - name: "Staff Service Award, Goodwin College, Drexel University"
+    year: "2010"
+  - name: "President's Award Nominee, Drexel University"
+    year: "2008"
+  - name: "Staff Service Award, School of Education, Drexel University"
+    year: "2006"
+  - name: "MS Leadership Award, National Multiple Sclerosis Society"
+    year: "2004"
+  - name: "Teacher of the Year, International American School, Warsaw"
+    year: "1998"
+
+languages: "German · French · Polish · Italian"
+
+references:
+  - name: "Edoardo M. Airoldi, Ph.D."
+    title: "Chair, Statistics, Operations, and Data Science; Millard E. Gladfelter Professor"
+    org: "Fox School of Business, Temple University"
+    email: "airoldi@temple.edu"
+  - name: "Alan F. Karr, Ph.D."
+    title: "Professor of Research, Statistics, Operations, and Data Science; Managing Director, Data Science Institute"
+    org: "Temple University"
+    email: "alan.karr@temple.edu"
+  - name: "Donald B. Rubin, Ph.D."
+    title: "Emeritus Professor of Statistics, Harvard University; Professor of Research, Temple University"
+    org: "Harvard University · Temple University"
+    email: "rubin@stat.harvard.edu"

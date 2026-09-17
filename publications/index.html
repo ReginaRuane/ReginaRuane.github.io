@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Publications · Regina Ruane</title>
+<meta name="description" content="Papers and preprints on statistical network models, robustness, causal inference, and the legal infrastructure of eviction.">
+<meta name="author" content="Regina (Jeanne) Ruane, Ph.D.">
+<link rel="canonical" href="https://reginaruane.github.io/publications/">
+<meta property="og:url" content="https://reginaruane.github.io/publications/">
+<meta property="og:image" content="https://reginaruane.github.io/images/profile.jpg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Regina Ruane">
+<meta property="og:title" content="Publications · Regina Ruane">
+<meta property="og:description" content="Papers and preprints on statistical network models, robustness, causal inference, and the legal infrastructure of eviction.">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,500;0,600;1,6..72,400&amp;family=Inter:wght@400;500;600;650&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<script>
+/* Dark is the default. Apply a stored preference before first paint so the
+   page never flashes the wrong theme. */
+(function(){try{var t=localStorage.getItem('rr-theme');
+if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="mobile-bar">
+  <a class="mb-name" href="../index.html">Regina Ruane</a>
+  <div class="mb-actions">
+    <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch between dark and light theme"><span class="t-light"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span><span class="t-dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span><span class="tt-text">Theme</span></button>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>
+  </div>
+</div>
+
+<div class="shell">
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-inner">
+    <a class="identity" href="../index.html">
+      <img class="portrait" src="../images/profile.jpg" alt="Regina (Jeanne) Ruane, Ph.D." width="118" height="118">
+      <span class="identity-name">Regina Ruane</span>
+    </a>
+    <p class="identity-role">Statistician · Computational Social Science</p>
+
+    <p class="interests"><span class="interest">Statistical network models</span><span class="interest">Causal inference</span><span class="interest">Bayesian computation</span><span class="interest">Computational social science</span></p>
+
+    <nav class="nav" aria-label="Main navigation">
+      <ul><li><a href="../index.html"><span class="nav-num">01</span><span>About</span></a></li><li><a href="../research/index.html"><span class="nav-num">02</span><span>Research</span></a></li><li><a href="../publications/index.html" class="is-current" aria-current="page"><span class="nav-num">03</span><span>Publications</span></a></li><li><a href="../teaching/index.html"><span class="nav-num">04</span><span>Teaching</span></a></li><li><a href="../students/index.html"><span class="nav-num">05</span><span>Students</span></a></li><li><a href="../leadership/index.html"><span class="nav-num">06</span><span>Leadership &amp; Grants</span></a></li><li><a href="../talks/index.html"><span class="nav-num">07</span><span>Talks</span></a></li><li><a href="../cv/index.html"><span class="nav-num">08</span><span>CV</span></a></li></ul>
+    </nav>
+
+    <div class="side-block">
+      <p class="side-label">Contact</p>
+      <p class="contact-line">University of Pennsylvania</p>
+      <p class="contact-line">Philadelphia, PA</p>
+      <p class="contact-line"><a href="mailto:jeanneruane@gmail.com">jeanneruane@gmail.com</a></p>
+    </div>
+
+    <div class="side-block">
+      <p class="side-label">Elsewhere</p>
+      <ul class="profiles"><li><a href="../files/Ruane_CV.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h2"/></svg><span>Curriculum vitae</span></a></li><li><a href="https://scholar.google.com/citations?user=pNNazAsAAAAJ&hl=en" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3z"/><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg><span>Google Scholar</span></a></li></ul>
+    </div>
+
+    <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch between dark and light theme"><span class="t-light"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span><span class="t-dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></span><span class="tt-text">Theme</span></button>
+  </div>
+</aside>
+
+<main id="main" class="content">
+<header class="page-head"><h1 class="page-title">Publications</h1><p class="page-subtitle">Grouped by status. Filter by topic below.</p></header>
+<div class="prose">
+  <p>
+    Author order in statistics is alphabetical in some of these venues and
+    contribution-ordered in others; where a paper is joint with Marios Papamichalis, the
+    work is genuinely shared. arXiv identifiers link to the current version.
+  </p>
+</div>
+
+<div class="pub-filters" role="group" aria-label="Filter publications by topic"><button class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button><button class="filter-btn" data-filter="networks" aria-pressed="false">Networks</button><button class="filter-btn" data-filter="causal" aria-pressed="false">Causal inference</button><button class="filter-btn" data-filter="bayesian" aria-pressed="false">Bayesian</button><button class="filter-btn" data-filter="eviction" aria-pressed="false">Eviction &amp; law</button><button class="filter-btn" data-filter="ml" aria-pressed="false">Machine learning</button><button class="filter-btn" data-filter="fintech" aria-pressed="false">FinTech</button><button class="filter-btn" data-filter="health" aria-pressed="false">Health</button><button class="filter-btn" data-filter="education" aria-pressed="false">Education</button></div>
+
+<p class="pub-empty">No papers match that filter.</p>
+
+<div data-pub-group><p class="section-label">Published &amp; accepted</p><ol class="pubs">
+    <li class="pub reveal" data-topics="ml bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Support-Safe Variational Hybrid Filtering for Contact-Mode and Sparse-Law Recovery</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><span class="tag">Accepted</span><cite>Advances in Neural Information Processing Systems (NeurIPS)</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2605.16398" rel="noopener">arXiv:2605.16398</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Contact-rich robot dynamics are hybrid: a single observation can match several latent states and contact regimes (free, impact, stick-slip). A standard amortized filter that places no probability on a feasible contact transition will permanently lose the branch the robot actually follows. We introduce VHYDRO, a variational hybrid dynamics learner that prevents this branch loss. At each step, VHYDRO mixes the learned proposal with a feasible transition law before sampling and importance weighting, ensuring that every transition retained by the model-feasible carrier remains covered. VHYDRO jointly infers a continuous latent state and a discrete contact mode, and fits a sparse port-Hamiltonian law to each recovered regime.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="eviction health">
+      <div class="pub-head">
+        <h3 class="pub-title">Examining the Relationship between COVID-19 Mobility and Eviction Rates in Philadelphia</h3>
+        <span class="pub-year">2023</span>
+      </div>
+      <p class="pub-authors"><strong>Regina Ruane</strong>, Les Sztandera</p>
+      <p class="pub-meta"><cite>International Journal on Advances in Life Sciences</cite><span class="pub-note">15(1 &amp; 2)</span></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="health">
+      <div class="pub-head">
+        <h3 class="pub-title">Exploring the Potential Effects of Technology Exposure on Temporary Impulsive Behaviors in Children</h3>
+        <span class="pub-year">2021</span>
+      </div>
+      <p class="pub-authors">Bahae Samhan, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Health Behavior and Policy Review</cite><span class="pub-note">8(4), 305–318</span></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="fintech causal">
+      <div class="pub-head">
+        <h3 class="pub-title">The Effect of COVID-19 on Gig Workers' Tips: Evidence from Gopuff</h3>
+        <span class="pub-year">2021</span>
+      </div>
+      <p class="pub-authors">Srikar Katta, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Working paper</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="health">
+      <div class="pub-head">
+        <h3 class="pub-title">Analyzing the Relationships between City Opioid Deaths and Socioeconomic Factors</h3>
+        <span class="pub-year">2020</span>
+      </div>
+      <p class="pub-authors">Ryan McGinnis, Les Sztandera, <strong>Regina Ruane</strong>, Rajanikanth Vadigepalli</p>
+      <p class="pub-meta"><cite>Journal of Opioid Management</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="health">
+      <div class="pub-head">
+        <h3 class="pub-title">The Trajectory of IT in Healthcare at HICSS: A Literature Review, Analysis, and Future Directions</h3>
+        <span class="pub-year">2019</span>
+      </div>
+      <p class="pub-authors">Bahae Samhan, Terry Crampton, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Communications of the Association for Information Systems</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="networks education">
+      <div class="pub-head">
+        <h3 class="pub-title">Analysis of Discussion Board Interaction in an Online Peer Mentoring Site</h3>
+        <span class="pub-year">2016</span>
+      </div>
+      <p class="pub-authors"><strong>Regina Ruane</strong>, Victoria J. Lee</p>
+      <p class="pub-meta"><cite>Online Learning</cite><span class="pub-note">20(4), 79–99</span><span class="tag tag-award">Best Paper Award</span></p>
+      
+      <details class="pub-abstract"><summary>Abstract</summary><p>A mixed-methods study of an online peer mentoring site for undergraduate education students, combining social network analysis with interpretive content analysis and critical discourse analysis to characterise how social position, peer influence, and discourse shape the formation of an online learning community.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="networks education">
+      <div class="pub-head">
+        <h3 class="pub-title">Social Network Analysis of Undergraduate Education Student Interaction in Online Peer Mentoring Settings</h3>
+        <span class="pub-year">2015</span>
+      </div>
+      <p class="pub-authors"><strong>Regina Ruane</strong>, Emmanuel Koku</p>
+      <p class="pub-meta"><cite>MERLOT Journal of Online Learning and Teaching</cite></p>
+      
+      
+    </li></ol></div><div data-pub-group><p class="section-label">Under review</p><ol class="pubs">
+    <li class="pub reveal" data-topics="networks bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Bayesian Predictive Synthesis for Dynamic Networks: Forecasting and Identifying Structural Mechanisms</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong>, Theofanis Papamichalis</p>
+      <p class="pub-meta"><span class="tag">Under revision, 2nd R&amp;R</span><cite>Journal of the American Statistical Association</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2606.26136" rel="noopener">arXiv:2606.26136</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Networks are shaped by competing structural mechanisms, such as communities, geometry, or hubs. In a dynamic network the most predictive mechanism can change, and a model tied to one mechanism, or to fixed weights, cannot adapt as the dominant structure shifts. We develop dynamic Bayesian predictive synthesis for networks, in which a mechanism is an agent forecasting the next snapshot's edges and a synthesis layer combines them with time-varying weights. At each step the method returns a calibrated edge forecast and inference on the mechanism weights, with intervals valid given the fitted agents, so it also reports which mechanism is most informative. A sharp threshold separates distinguishable from indistinguishable mechanisms, and a change in the active mechanism is tracked at an optimal per-switch cost.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="networks bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Decision-Theoretic Robustness for Network Models</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong>, Simón Lunagómez, Swati Chandna</p>
+      <p class="pub-meta"><span class="tag">Under revision</span><cite>Journal of Machine Learning Research</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2601.02811" rel="noopener">arXiv:2601.02811</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Network data from neuroscience, epidemiology, and the social sciences are routinely analyzed with Bayesian network models such as Erdős–Rényi graphs, stochastic block models, random dot product graphs, and graphon priors. In such applications these models are only approximations, whereas real networks are sparse, heterogeneous, and exhibit higher-order dependencies. This raises the question: how stable are network-based decisions, model selection, functional summaries, and policy recommendations under small misspecification of the assumed model? We address this using a local decision-theoretic robustness framework, in which the posterior is allowed to vary within a small Kullback–Leibler neighborhood and actions are chosen to minimize the worst-case posterior expected loss. We derive sharp small-radius expansions for the robust posterior risk, obtain a universal critical exponent describing how decision-level uncertainty explodes near criticality, develop a nonparametric minimax theory for robust model selection, and illustrate a practical algorithm on functional brain connectivity and Karnataka village social networks.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="eviction networks causal">
+      <div class="pub-head">
+        <h3 class="pub-title">How Eviction Court Governs: A Statistical Analysis of Bargaining, Templates, and Debt in Philadelphia</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><span class="tag">Under review</span></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2605.24849" rel="noopener">arXiv:2605.24849</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>We analyze downstream courtroom governance in Philadelphia eviction cases using 755,004 Municipal Court landlord–tenant records filed from 1969 through 2022. Post-filing case processing is organized by repeated courtroom relationships, judge and tenant-attorney regimes, reusable agreement templates, and repeated team–property units. Among both-represented cases, 58.2% involve a plaintiff-side and tenant-side attorney pair that had appeared against one another in the prior year, and greater prior pair exposure predicts lower default, higher judgment-by- agreement, and higher served-writ rates. Settlement text is highly standardized: reusable templates explain strictness, waiver, lockout-trigger, payment-plan, and deadline language far more strongly than raw attorney identity. Eviction court emerges as a repeated institutional field that organizes bargaining, text, debt, and enforcement after cases enter the courtroom pipeline.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="eviction networks causal">
+      <div class="pub-head">
+        <h3 class="pub-title">Legal Infrastructure Organizes Eviction: Evidence from Philadelphia</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><span class="tag">Under review</span></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2604.21212" rel="noopener">arXiv:2604.21212</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>We analyze the filing-side legal infrastructure of eviction using 755,004 Philadelphia Municipal Court landlord–tenant records filed between 1969 and 2022, of which 747,125 are residential. Eviction in Philadelphia is organized upstream by a concentrated plaintiff-side bar, durable plaintiff–attorney dependence, repeated use of the same properties, and recurring tenant-name exposure. Between 1983 and 2022, the ten most active plaintiff attorneys handled 82.2% of represented plaintiff-side cases per year on average, compared with 14.8% for the ten most active plaintiffs. Across the residential filing universe, 48.8% of cases occur at addresses with a prior filing in the preceding year, and 23.6% at addresses with six or more prior filings. We interpret eviction as a layered upstream process in which concentrated counsel, repeated places, and recurring tenants produce filings before any courtroom bargaining or adjudication occurs.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="networks education">
+      <div class="pub-head">
+        <h3 class="pub-title">Investigating Twitter Behavior of Tax Experts in Social Network Sites</h3>
+        <span class="pub-year">2024</span>
+      </div>
+      <p class="pub-authors"><strong>Regina Ruane</strong>, Srikar Katta, T. L. Hill</p>
+      <p class="pub-meta"><span class="tag">Submitted</span><cite>Under review</cite></p>
+      
+      
+    </li></ol></div><div data-pub-group><p class="section-label">Preprints</p><ol class="pubs">
+    <li class="pub reveal" data-topics="networks bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Collapsed Structured Block Models for Community Detection in Complex Networks</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Preprint</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2601.02828" rel="noopener">arXiv:2601.02828</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Community detection seeks to recover mesoscopic structure from network data that may be binary, count-valued, signed, directed, weighted, or multilayer. In Bayesian stochastic block models, standard MCMC alternates between updating the partition and sampling block parameters, which can hinder mixing and complicate comparison across partitions and numbers of communities. We develop a collapsed Bayesian SBM framework in which block-specific nuisance parameters are analytically integrated out under conjugate priors, so the marginal likelihood depends only on the partition and blockwise sufficient statistics. This yields fast local Gibbs/Metropolis updates and evidence-based complexity control that discourages gratuitous over-partitioning. We derive exact collapsed marginals for Beta-Bernoulli, Gamma-Poisson, and Normal-Inverse-Gamma edge types, and extend the strategy to directed, signed, and multiplex block models.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="networks bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Minimax Synthesis of Network Mechanisms</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Preprint</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2606.15836" rel="noopener">arXiv:2606.15836</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>A single observed network reflects several mechanisms at once: communities, hubs, and clustering coexist in one graph, each a different model. We treat the network as a combination of candidate mechanisms and study, from a single graph, how strongly each mechanism contributes and how they combine. Fitting the mechanisms and their strengths from the same data biases the strengths toward zero; a correction removes this bias and yields valid confidence intervals. When a graph is generated by two mechanisms acting together, the graph alone determines whether they combine additively or interact, exactly when the graph is dense enough — a sharp threshold below which no test can decide. We establish matching minimax rates and apply the methods to real networks, where in one case a confidence interval excludes any positive contribution from a candidate mechanism.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="ml bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Replicable Conformal Prediction</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong>, Theofanis Papamichalis</p>
+      <p class="pub-meta"><cite>Preprint</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2608.23638" rel="noopener">arXiv:2608.23638</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Algorithms for generating consistent uncertainty sets across independent data samples, joining the replicability literature to distribution-free conformal prediction.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="networks">
+      <div class="pub-head">
+        <h3 class="pub-title">Decomposing Degree Assortativity in Sparse Spatial Networks</h3>
+        <span class="pub-year">2025</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Preprint</cite><span class="pub-note">Formerly circulated as “CoLaS: Copula-Seeded Sparse Local Graphs”</span></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2512.20019" rel="noopener">arXiv:2512.20019</a><a href="https://github.com/MariosPapamix/Decomposing-Degree-Assortativity-in-Sparse-Spatial-Networks" rel="noopener">Code</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Empirical networks are typically sparse yet display pronounced degree variation, persistent transitivity, and systematic degree mixing. Most sparse generators control at most two of these features, and assortativity is often achieved by degree-preserving rewiring, which obscures the mechanism–parameter link. We introduce CoLaS, a modular latent-variable model that separates marginal specifications from dependence: each node has a popularity variable governing degree heterogeneity and a latent geometric location governing locality, and a low-dimensional copula couples the two. We develop sparse-limit theory for degrees, transitivity, and assortativity, and establish a degree-tail dichotomy — with fixed-range local kernels, degree tails are necessarily light, even under heavy-tailed popularity.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="networks bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Multiscale Localized Inference for Networks with a Measured Vertex Coordinate</h3>
+        <span class="pub-year">2025</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Preprint</cite><span class="pub-note">Formerly circulated as “Wavelet Latent Position Exponential Random Graphs”</span></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2512.18592" rel="noopener">arXiv:2512.18592</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Many network datasets exhibit connectivity that varies by resolution, with large-scale organization coexisting with localized departures. When vertices have an observed ordering or embedding — genome position in Hi-C contact maps, geography in spatial and village networks, anatomical coordinates in connectomes — learning where and at what resolution connectivity departs from a baseline is crucial. We introduce wavelet latent position exponential random graphs, an exchangeable logistic-graphon framework in which the log-odds connectivity kernel is represented in compactly supported orthonormal wavelet coordinates. Wavelet coefficients are indexed by resolution and location, which allows multiscale structure to become sparse and directly interpretable, and enables likelihood-based regularization and testing in coefficient space.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="ml bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Radial Compensation: The Inverse Base-Distribution Problem for Chart-Based Generative Models on Riemannian Manifolds</h3>
+        <span class="pub-year">2025</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>Preprint</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2511.14056" rel="noopener">arXiv:2511.14056</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>We study the base distribution in chart-based generative models on Riemannian manifolds. Standard methods sample in Euclidean tangent space and then map the sample to the manifold with a chart, but this changes the meaning of distance: the same tangent-space scale can correspond to different geodesic radii under different charts, curvatures, and dimensions. Within isotropic, scalar-Jacobian azimuthal charts, we show that no base distribution can simultaneously preserve geodesic-radial likelihoods, chart-invariant radial Fisher information, and tangent-space isotropy unless it has a specific form, which we call Radial Compensation. This decouples the statistical meaning of the model from its numerical conditioning: chart choice becomes a numerical preconditioner rather than a hidden modeling decision.</p></details>
+    </li>
+    <li class="pub reveal" data-topics="networks fintech bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">State-Space Modeling of Time-Varying Spillovers on Networks</h3>
+        <span class="pub-year">2025</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong>, Theofanis Papamichalis</p>
+      <p class="pub-meta"><cite>Preprint</cite></p>
+      <p class="pub-links"><a href="https://arxiv.org/abs/2512.18584" rel="noopener">arXiv:2512.18584</a></p>
+      <details class="pub-abstract"><summary>Abstract</summary><p>Many modern time series arise on networks, where each component is attached to a node and interactions follow observed edges. Classical time-varying parameter VARs treat all series symmetrically and ignore this structure, while network autoregressive models exploit a given graph but usually impose constant parameters and stationarity. We develop network state-space models in which a low-dimensional latent state controls time-varying network spillovers, own-lag persistence, and nodal covariate effects. Conceptually, network state-space models separate where interactions may occur (the graph) from how strong they are at each time (the latent state), providing an interpretable alternative to both unstructured TVP-VARs and existing network time-series models.</p></details>
+    </li></ol></div><div data-pub-group><p class="section-label">In preparation</p><ol class="pubs">
+    <li class="pub reveal" data-topics="networks bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">Dynamic Network Threshold Models via Discrete Hamiltonian MCMC and Discrete Stein Variational Inference</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors"><strong>Regina Ruane</strong>, Marios Papamichalis, Edoardo M. Airoldi</p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="ml">
+      <div class="pub-head">
+        <h3 class="pub-title">Effects of Training Data Quality on Classifier Behavior</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Alan F. Karr, Adam A. Porter, <strong>Regina Ruane</strong></p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="networks">
+      <div class="pub-head">
+        <h3 class="pub-title">Hybrid Growing Network Models with Heavy Tails</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Marios Papamichalis, <strong>Regina Ruane</strong>, Edoardo M. Airoldi</p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="fintech causal">
+      <div class="pub-head">
+        <h3 class="pub-title">Inferential Probabilistic and Quasi-Experimental Approaches on Bitcoin</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors"><strong>Regina Ruane</strong>, Marios Papamichalis, Edoardo M. Airoldi</p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="fintech bayesian">
+      <div class="pub-head">
+        <h3 class="pub-title">MCMC and Variational Inferential Procedures for the Bates Stochastic Volatility Model</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors"><strong>Regina Ruane</strong>, Marios Papamichalis, Edoardo M. Airoldi</p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="causal">
+      <div class="pub-head">
+        <h3 class="pub-title">Model-Assisted Counterfactual Imputation for Causal Inference in the Absence of Untreated Units and Variables</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Srikar Katta, <strong>Regina Ruane</strong>, Edoardo M. Airoldi</p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="networks causal fintech">
+      <div class="pub-head">
+        <h3 class="pub-title">Network Effects of Consumer Purchasing Behavior: An Empirical Investigation</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Paul A. Pavlou, Edoardo M. Airoldi, Sunil Kumar, <strong>Regina Ruane</strong>, Yuliya Vorotyntseva</p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li>
+    <li class="pub reveal" data-topics="ml">
+      <div class="pub-head">
+        <h3 class="pub-title">Structure of Classifier Boundaries: Case Study for a Naive Bayes Classifier</h3>
+        <span class="pub-year">2026</span>
+      </div>
+      <p class="pub-authors">Alan F. Karr, Adam A. Porter, <strong>Regina Ruane</strong>, Zac Bowen</p>
+      <p class="pub-meta"><cite>In preparation</cite></p>
+      
+      
+    </li></ol></div>
+
+<div class="callout">
+  <p class="callout-title">Also</p>
+  <p><a class="linky" href="https://scholar.google.com/citations?user=pNNazAsAAAAJ&hl=en" rel="noopener">Google Scholar profile</a> · <a class="linky" href="https://arxiv.org/a/ruane_r_1" rel="noopener">arXiv listing</a> · <a class="linky" href="../talks/index.html">conference presentations</a></p>
+</div>
+
+  <footer class="footer">
+    <span>&copy; 2026 Regina (Jeanne) Ruane, Ph.D.</span>
+    <span><a href="../files/Ruane_CV.pdf">CV</a> · <a href="mailto:jeanneruane@gmail.com">Email</a> · <a href="https://scholar.google.com/citations?user=pNNazAsAAAAJ&hl=en" rel="noopener">Scholar</a></span>
+  </footer>
+</main>
+</div>
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>
