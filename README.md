@@ -10,4 +10,4 @@ regenerates the HTML from it.
 Every link in the site is relative, so it works wherever it is served from — a
 user site at the domain root, a project site in a `/reponame/` subfolder, a
 custom domain, or just opened from your own hard drive. Nothing has to match a
-particular repository or account name.
+particular repository or account name.   
